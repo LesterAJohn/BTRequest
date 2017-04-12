@@ -15,7 +15,7 @@ public class Main {
 		//Working on in memory and disk storage for node structure
 		//Adjust numbers below to define number of nodes created
 		
-		Node.nodeArray(10);
+		Node.nodeArray(50);
 	}
 	
 }
