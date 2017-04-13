@@ -6,7 +6,7 @@ public class pArray
 {
 public static final String arrayValue = null;
 
-public static void arrayValue(int[] arrayValue) {
+public static int arrayValue(int[] arrayValue) {
 	int aZero = 0;
 	
 	Arrays.sort(arrayValue);
@@ -30,5 +30,6 @@ public static void arrayValue(int[] arrayValue) {
 		System.out.print(",0");
 		}
 	System.out.println();
+	return(0);
 	}
 }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Node
 {
-	public static void nodeArray (int nodeNum)
+	public static int nodeArray (int nodeNum)
 	{
 		int[] storeValueMax = {0,0,0,0,0};
 		int[] storeValueMin = {0,0,0,0,0};
@@ -59,5 +59,6 @@ public class Node
 		System.out.println("Node: :"+storeValueMax[0]+" MaxVal :"+storeValueMax[4]);
 		System.out.println("Node: :"+storeValueMin[0]+" MinVal :"+storeValueMin[4]);
 		System.out.println(nodeValue);
+		return(0);
 	}
 }
